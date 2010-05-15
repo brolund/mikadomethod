@@ -1,7 +1,7 @@
 package mastercrupt;
 
 public class UI {
-    Application application = new Application();
+    private Application application = new Application();
     private String leeted;
     
     public String leetMessage(String unLeeted) {
