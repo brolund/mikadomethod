@@ -10,7 +10,7 @@ namespace MasterCrupt
         private string encrypt;
         
         public string EncryptMessage(string message) {
-            secretApplication.Encrypt(message, this);
+            secretApplication.Leet(message, this);
             return "Encrypted: " + encrypt;
         }
 

@@ -6,7 +6,7 @@ using System.Text;
 namespace MasterCrupt
 {
     public class Application {
-        public void Encrypt(string message, UI ui) {
+        public void Leet(string message, UI ui) {
             ui.SetMessage(Leeter.Leet(message));
         }
         static void Main(string[] args)
