@@ -6,9 +6,11 @@ using System.Text;
 namespace MasterCrupt
 {
     public class Application {
-        public void Leet(string message, UI ui) {
-            ui.SetMessage(Leeter.Leet(message));
+        public void Leet(string message, UI ui) 
+        {
+            ui.SetLeeted(Leeter.Leet(message));
         }
+
         static void Main(string[] args)
         {
             UI ui = new UI();

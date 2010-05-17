@@ -6,16 +6,18 @@ using System.Text;
 namespace MasterCrupt
 {
     public class UI {
-        Application secretApplication = new Application(); 
-        private string encrypt;
+        Application application = new Application(); 
+        private string leeted;
         
-        public string EncryptMessage(string message) {
-            secretApplication.Leet(message, this);
-            return "Encrypted: " + encrypt;
+        public string EncryptMessage(string unLeeted) 
+        {
+            application.Leet(unLeeted, this);
+            return "Encrypted: " + leeted;
         }
 
-        public void SetMessage(string encrypt) {
-            this.encrypt = encrypt;
+        public void SetLeeted(string leeted) 
+        {
+            this.leeted = leeted;
         }
     }
 }
