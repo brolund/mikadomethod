@@ -7,7 +7,7 @@ namespace MasterCrupt
 {
     public class Application {
         public void Encrypt(string message, UI ui) {
-            ui.SetMessage(Encrypter.Encrypt(message));
+            ui.SetMessage(Leeter.Leet(message));
         }
         static void Main(string[] args)
         {
