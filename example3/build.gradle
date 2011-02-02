@@ -1,0 +1,24 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	testCompile 'junit:junit:4.8.2'
+}
+
+
+sourceSets {
+	main {
+		java {
+			srcDir 'java/space/src/main/java'
+		}
+	}
+	test {
+		java {
+			srcDir 'java/space/src/test/java'
+		}
+	}
+}
